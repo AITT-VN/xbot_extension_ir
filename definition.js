@@ -95,7 +95,7 @@ Blockly.Blocks["xbot_ir_code"] = {
           "flipRtl": false
         }
       ],
-      output: "Number",
+      output: null,
       helpUrl: "",
     });
   },
@@ -117,7 +117,7 @@ Blockly.Blocks["xbot_ir_raw_code"] = {
           "flipRtl": false
         }
       ],
-      output: "Number",
+      output: null,
       helpUrl: "",
     });
   },

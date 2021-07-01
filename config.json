@@ -1,0 +1,13 @@
+{
+    "name": "IR Remote",
+    "description": "Mục mở rộng của xbot sử dụng IR remote",
+    "libs": [
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+    },
+    "poster": "poster.png"
+}

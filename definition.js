@@ -245,7 +245,7 @@ Blockly.Python["xbot_ir_clear"] = function (block) {
 Blockly.Python["xbot_ir_send"] = function (block) {
   var number = Blockly.Python.valueToCode(block, 'number', Blockly.Python.ORDER_ATOMIC);
   // TODO: Assemble Python into code variable.
-  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *';
+  Blockly.Python.definitions_['import_ir_sender'] = 'from ir_sender import *';
   var code = 'ir_tx.send(' + number + ')\n';
   return code;
 };
@@ -254,7 +254,7 @@ Blockly.Python["xbot_ir_send_address"] = function (block) {
   var number = Blockly.Python.valueToCode(block, 'number', Blockly.Python.ORDER_ATOMIC);
   var address = Blockly.Python.valueToCode(block, 'address', Blockly.Python.ORDER_ATOMIC);
   // TODO: Assemble Python into code variable.
-  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *';
+  Blockly.Python.definitions_['import_ir_sender'] = 'from ir_sender import *';
   var code = 'ir_tx.send(' + number + ', ' + address + ')\n';
   return code;
 };

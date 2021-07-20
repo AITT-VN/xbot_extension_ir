@@ -216,28 +216,28 @@ Blockly.Blocks["xbot_ir_send_address"] = {
 Blockly.Python["xbot_ir_recv"] = function (block) {
   var remote = block.getFieldValue("remote");
   // TODO: Assemble Python into code variable.
-  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *';
+  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *; ir_rx.start();';
   var code = 'ir_rx.get_code() == IR_REMOTE_' + remote;
   return [code, Blockly.Python.ORDER_NONE];
 };
 
 Blockly.Python["xbot_ir_code"] = function (block) {
   // TODO: Assemble Python into code variable.
-  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *';
+  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *; ir_rx.start();';
   var code = 'ir_rx.get_code()' ;
   return [code, Blockly.Python.ORDER_NONE];
 };
 
 Blockly.Python["xbot_ir_raw_code"] = function (block) {
   // TODO: Assemble Python into code variable.
-  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *';
+  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *; ir_rx.start();';
   var code = 'ir_rx.get_raw_code()';
   return [code, Blockly.Python.ORDER_NONE];
 };
 
 Blockly.Python["xbot_ir_clear"] = function (block) {
   // TODO: Assemble Python into code variable.
-  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *';
+  Blockly.Python.definitions_['import_ir_receiver'] = 'from ir_receiver import *; ir_rx.start();';
   var code = 'ir_rx.clear_code()\n';
   return code;
 };

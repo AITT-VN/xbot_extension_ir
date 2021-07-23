@@ -1,7 +1,7 @@
 Blockly.Blocks["xbot_ir_recv"] = {
   init: function () {
     this.jsonInit({
-      colour: "#5CA4FB",
+      colour: "#7F85D4",
       tooltip: "",
       message0: "%2 nút %1 trên remote được nhấn",
       args0: [
@@ -82,7 +82,7 @@ Blockly.Blocks["xbot_ir_recv"] = {
 Blockly.Blocks["xbot_ir_code"] = {
   init: function () {
     this.jsonInit({
-      colour: "#5CA4FB",
+      colour: "#7F85D4",
       tooltip: "",
       message0: "%1 đọc tín hiệu số thu được",
       args0: [
@@ -104,7 +104,7 @@ Blockly.Blocks["xbot_ir_code"] = {
 Blockly.Blocks["xbot_ir_raw_code"] = {
   init: function () {
     this.jsonInit({
-      colour: "#5CA4FB",
+      colour: "#7F85D4",
       tooltip: "",
       message0: "%1 đọc tín hiệu thu từ remote",
       args0: [
@@ -126,7 +126,7 @@ Blockly.Blocks["xbot_ir_raw_code"] = {
 Blockly.Blocks["xbot_ir_clear"] = {
   init: function () {
     this.jsonInit({
-      colour: "#5CA4FB",
+      colour: "#7F85D4",
       tooltip: "",
       message0: "%1 xóa tín hiệu đã thu được",
       args0: [
@@ -149,7 +149,7 @@ Blockly.Blocks["xbot_ir_clear"] = {
 Blockly.Blocks["xbot_ir_send"] = {
   init: function () {
     this.jsonInit({
-      colour: "#5CA4FB",
+      colour: "#7F85D4",
       tooltip: "",
       message0: "%3 phát tín hiệu số %1 %2",
       args0: [
@@ -180,7 +180,7 @@ Blockly.Blocks["xbot_ir_send"] = {
 Blockly.Blocks["xbot_ir_send_address"] = {
   init: function () {
     this.jsonInit({
-      colour: "#5CA4FB",
+      colour: "#7F85D4",
       tooltip: "",
       message0: "%4 phát tín hiệu remote địa chỉ %1 giá trị %2 %3",
       args0: [
